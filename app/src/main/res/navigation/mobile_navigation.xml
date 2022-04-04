@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_recipe">
+
+    <fragment
+        android:id="@+id/nav_recipe"
+        android:name="com.recifit.application.ui.recipe.RecipeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_recipe" />
+
+
+    <fragment
+        android:id="@+id/nav_myRecipe"
+        android:name="com.recifit.application.ui.mylist.MylistFragment"
+        android:label="@string/menu_myRecipe"
+        tools:layout="@layout/fragment_mylist" />
+
+
+    <fragment
+        android:id="@+id/nav_graph"
+        android:name="com.recifit.application.ui.myGraph.BarGraphFragment"
+        android:label="@string/menu_graph"
+        tools:layout="@layout/fragment_bar_graph" />
+
+    <fragment
+        android:id="@+id/nav_graph2"
+        android:name="com.recifit.application.ui.allGraph.LineGraphFragment"
+        android:label="@string/menu_graph2"
+        tools:layout="@layout/fragment_line_graph" />
+
+    <fragment
+        android:id="@+id/nav_test"
+        android:name="com.recifit.application.ui.recipeTest.TestFragment"
+        android:label="@string/menu_test"
+        tools:layout="@layout/fragment_test" />
+</navigation>

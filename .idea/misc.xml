@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/eehaein/Desktop/devPROJECT/CAU/recifit/app/src/main/res/drawable-v24/ch_img_background.xml" value="0.26979166666666665" />
+        <entry key="..\:/Users/eehaein/Desktop/devPROJECT/CAU/recifit/app/src/main/res/layout/activity_login.xml" value="0.2418478260869565" />
+        <entry key="..\:/Users/eehaein/Desktop/devPROJECT/CAU/recifit/app/src/main/res/layout/activity_splash.xml" value="0.10729166666666666" />
+        <entry key="..\:/Users/eehaein/Desktop/devPROJECT/CAU/recifit/app/src/main/res/layout/activity_write.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/eehaein/Desktop/devPROJECT/CAU/recifit/app/src/main/res/layout/content_main.xml" value="0.1" />
+        <entry key="..\:/Users/eehaein/Desktop/devPROJECT/CAU/recifit/app/src/main/res/layout/custom_title.xml" value="0.10729166666666666" />
+        <entry key="..\:/Users/eehaein/Desktop/devPROJECT/CAU/recifit/app/src/main/res/layout/fragment_bar_graph.xml" value="0.21354166666666666" />
+        <entry key="..\:/Users/eehaein/Desktop/devPROJECT/CAU/recifit/app/src/main/res/layout/fragment_graph.xml" value="0.10104166666666667" />
+        <entry key="..\:/Users/eehaein/Desktop/devPROJECT/CAU/recifit/app/src/main/res/layout/fragment_line_graph.xml" value="0.2" />
+        <entry key="..\:/Users/eehaein/Desktop/devPROJECT/CAU/recifit/app/src/main/res/layout/fragment_mylist.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/eehaein/Desktop/devPROJECT/CAU/recifit/app/src/main/res/layout/fragment_recipe.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/eehaein/Desktop/devPROJECT/CAU/recifit/app/src/main/res/layout/fragment_result.xml" value="0.12083333333333333" />
+        <entry key="..\:/Users/eehaein/Desktop/devPROJECT/CAU/recifit/app/src/main/res/layout/fragment_test.xml" value="0.12083333333333333" />
+        <entry key="..\:/Users/eehaein/Desktop/devPROJECT/CAU/recifit/app/src/main/res/layout/my_list_view.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/eehaein/Desktop/devPROJECT/CAU/recifit/app/src/main/res/layout/nav_header_main.xml" value="0.2418478260869565" />
+        <entry key="..\:/Users/eehaein/Desktop/devPROJECT/CAU/recifit/app/src/main/res/layout/receipe_list_view.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/eehaein/Desktop/devPROJECT/CAU/recifit/app/src/main/res/layout/recipe_list_view.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/eehaein/Desktop/devPROJECT/CAU/recifit/app/src/main/res/menu/main.xml" value="0.10729166666666666" />
+        <entry key="..\:/Users/eehaein/Desktop/devPROJECT/recefit/app/src/main/res/layout/content_main.xml" value="0.15121580547112462" />
+        <entry key="..\:/Users/eehaein/Desktop/devPROJECT/recifit/app/src/main/res/drawable/ic_launcher_background.xml" value="0.22564102564102564" />
+        <entry key="..\:/Users/eehaein/Desktop/devPROJECT/recifit/app/src/main/res/drawable/ic_menu_camera.xml" value="0.14583333333333334" />
+        <entry key="..\:/Users/eehaein/Desktop/devPROJECT/recifit/app/src/main/res/drawable/ic_menu_slideshow.xml" value="0.18020833333333333" />
+        <entry key="..\:/Users/eehaein/Desktop/devPROJECT/recifit/app/src/main/res/drawable/side_nav_bar.xml" value="0.14583333333333334" />
+        <entry key="..\:/Users/eehaein/Desktop/devPROJECT/recifit/app/src/main/res/layout/activity_login.xml" value="0.14947916666666666" />
+        <entry key="..\:/Users/eehaein/Desktop/devPROJECT/recifit/app/src/main/res/layout/activity_write.xml" value="0.18" />
+        <entry key="..\:/Users/eehaein/Desktop/devPROJECT/recifit/app/src/main/res/layout/fragment_graph.xml" value="0.1640625" />
+        <entry key="..\:/Users/eehaein/Desktop/devPROJECT/recifit/app/src/main/res/layout/fragment_home.xml" value="0.1640625" />
+        <entry key="..\:/Users/eehaein/Desktop/devPROJECT/recifit/app/src/main/res/layout/fragment_recipe.xml" value="0.16" />
+        <entry key="..\:/Users/eehaein/Desktop/devPROJECT/recifit/app/src/main/res/layout/fragment_slideshow.xml" value="0.1296875" />
+        <entry key="..\:/Users/eehaein/Desktop/devPROJECT/recifit/app/src/main/res/layout/markerviewtext.xml" value="0.18704710144927536" />
+        <entry key="..\:/Users/eehaein/Desktop/devPROJECT/recifit/app/src/main/res/layout/nav_header_main.xml" value="0.1640625" />
+        <entry key="..\:/Users/eehaein/Desktop/devPROJECT/recifit/app/src/main/res/menu/activity_main_drawer.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/eehaein/Desktop/devPROJECT/recifit/app/src/main/res/menu/main.xml" value="0.1640625" />
+        <entry key="..\:/Users/eehaein/Desktop/devPROJECT/recifit/app/src/main/res/mipmap-anydpi-v26/ic_main.xml" value="0.32135416666666666" />
+        <entry key="..\:/Users/eehaein/Desktop/devPROJECT/recifit/app/src/main/res/mipmap-anydpi-v26/ic_main_round.xml" value="0.32135416666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

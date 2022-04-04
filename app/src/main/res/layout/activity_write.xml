@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+
+    <TextView
+        android:id="@+id/likeText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:fontFamily="@font/notosanskrlight"
+        android:gravity="center"
+        android:text="오늘의 레시피를 등록해주세요!"
+        android:textColor="@color/black"
+        android:textSize="19dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RelativeLayout
+        android:id="@+id/write_relative"
+        android:layout_width="361dp"
+        android:layout_height="220dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/write_background"
+        android:elevation="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/back_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <EditText
+            android:id="@+id/recipeContentEdit"
+            android:layout_width="338dp"
+            android:layout_height="200dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:ems="10"
+            android:hint="레시피 제조법 설명"
+            android:inputType="textMultiLine"
+            android:textColorHint="#808080"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.493"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.864" />
+
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/recipeTitleEdit"
+        android:layout_width="361dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="10dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="레시피 제조명"
+        android:inputType="textMultiLine"
+        android:textColorHint="#808080"
+        app:layout_constraintBottom_toTopOf="@+id/recipeContent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/recipeTitle"
+        app:layout_constraintVertical_bias="0.285" />
+
+    <Button
+        android:id="@+id/back_btn"
+        android:layout_width="117dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#808080"
+        android:fontFamily="@font/notosanskrlight"
+        android:text="뒤로가기"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.238"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="117dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#808080"
+        android:fontFamily="@font/notosanskrlight"
+        android:text="레시피 등록"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.826"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/cameraBtn"
+        android:layout_width="66dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/likeText"
+        app:srcCompat="@drawable/ic_menu_camera" />
+
+    <ImageView
+        android:id="@+id/recipeImg"
+        android:layout_width="232dp"
+        android:layout_height="190dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/likeText"
+        app:srcCompat="@drawable/recipe_default" />
+
+    <TextView
+        android:id="@+id/recipeTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:text="레시피 제조명"
+        android:textSize="19dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/recipeImg" />
+
+    <TextView
+        android:id="@+id/recipeContent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="5dp"
+        android:textStyle="bold"
+        android:text="레시피 제조법"
+        android:textSize="19dp"
+        app:layout_constraintBottom_toTopOf="@+id/write_relative"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

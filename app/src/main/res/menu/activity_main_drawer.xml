@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_recipe"
+            android:icon="@drawable/gold_star"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_myRecipe"
+            android:icon="@drawable/gold_star"
+            android:title="@string/menu_myRecipe" />
+        <item
+            android:id="@+id/nav_graph"
+            android:icon="@drawable/gold_star"
+            android:title="@string/menu_graph" />
+        <item
+            android:id="@+id/nav_graph2"
+            android:icon="@drawable/gold_star"
+            android:title="@string/menu_graph2" />
+        <item
+            android:id="@+id/nav_test"
+            android:icon="@drawable/gold_star"
+            android:title="@string/menu_test" />
+    </group>
+</menu>

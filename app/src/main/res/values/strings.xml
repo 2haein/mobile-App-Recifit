@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">레시핏</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">모든 레시피 목록</string>
+    <string name="menu_myRecipe">내가 등록한 레시피</string>
+    <string name="menu_graph">나의 레시피 그래프</string>
+    <string name="menu_graph2">총 레시피 통계</string>
+    <string name="menu_test">나트륨 자가진단 테스트</string>
+
+
+    <string name="menu_login">비회원 로그인</string>
+    <string name="menu_logout">로그아웃</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="test_explain">"혹시 나도 나트륨 중독? 나트륨 섭취 자가진단 테스트"</string>
+    <string name="test_item1">"생 채소보다 김치를 더 좋아한다."</string>
+    <string name="test_item2">"콩나물밥과 같은 별미 밥보다 덮밥을 좋아한다."</string>
+    <string name="test_item3">"양식보다 중식이나 일식을 좋아한다."</string>
+    <string name="test_item4">"말린 생선이나 고등어자반 등을 좋아한다."</string>
+    <string name="test_item5">"젓갈이나 장아찌류를 좋아한다."</string>
+    <string name="test_item6">"음식이 싱거우면 소금이나 간장을 더 넣는 편이다."</string>
+    <string name="test_item7">"국, 찌개, 국수 등의 국물을 남김없이 먹는다."</string>
+    <string name="test_item8">"튀김, 전, 생선회 등에 간장을 듬뿍 잠길 정도로 찍어 먹는다."</string>
+    <string name="test_item9">"외식을 하거나 배달시켜 먹는 일이 잦은 편이다."</string>
+</resources>
