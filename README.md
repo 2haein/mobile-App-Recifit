@@ -1,5 +1,5 @@
 # Mobile App_Recifit
-## 중앙대학교 APP 개발 프로젝트 Android Mobile Recipe Service Project
+## Android Mobile Recipe Service Project
 
 ![1](https://user-images.githubusercontent.com/46235778/179383397-924d4c33-dc3b-4b02-b39d-c8d10b598a1b.PNG)
 ![2](https://user-images.githubusercontent.com/46235778/179383401-57ba6687-4878-44ac-a1cb-745f54b43627.PNG)
